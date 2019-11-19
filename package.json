@@ -1,0 +1,28 @@
+{
+  "name": "emailstwo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -x ts-node index.ts",
+    "test": "ts-node node_modules/jasmine/bin/jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-reporters": "^2.3.2",
+    "nodemailer": "^6.3.1",
+    "ts-node": "^8.5.0",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/jasmine": "^3.4.6",
+    "@types/node": "^12.12.7",
+    "@types/nodemailer": "^6.2.2",
+    "jasmine": "^3.5.0",
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "nodemon": "^1.19.4"
+  }
+}
