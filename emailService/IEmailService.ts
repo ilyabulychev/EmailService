@@ -13,3 +13,7 @@ export interface IEmailSettings{
     username: string;
     password: string
 }
+
+export interface IEmailService {
+    SendMails(emails: IEmail[]): Promise<IEmailResponse[]>;
+}
