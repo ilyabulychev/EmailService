@@ -12,7 +12,7 @@
   "dependencies": {
     "jasmine-console-reporter": "^3.1.0",
     "jasmine-reporters": "^2.3.2",
-    "nodemailer": "^6.3.1",
+    "nodemailer": "^6.4.16",
     "ts-node": "^8.5.0",
     "typescript": "^3.7.2"
   },
